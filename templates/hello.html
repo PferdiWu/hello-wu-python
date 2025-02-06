@@ -1,0 +1,12 @@
+<html>
+    <head><title>Hello World!</title></head>
+    <body>
+        {% if person %}
+            <h1>Hello {{ person }}!</h1>
+        {% endif %}
+        <br />
+            <form action="{{ url_for('hello') }}", method="post">
+                Name: <input type"text" name="name"><input type="submit" value="Say hi!" />
+            </form>
+    </body>
+</html>
