@@ -1,16 +1,16 @@
 # Todo
 
 Install flask (see below) and open the web application as depicted below. After entering your name and
-submitting the form, the application will respond with "Hello <Name>!".
+submitting the form, the application will respond with `Hello NAME!`.
 
 Please adjust the application in a way so it responds with the entered name in
 reversed order. 
 
 After entering a name in the form, the person should be greeted with his/her name
-reversed, so e.g. entering "Dino" should result in "Hello Onid", "Stefan" should
-result in "Hello Nafets", etc..
+reversed, so e.g. entering `Dino` should result in `Hello Onid`, `Stefan` should
+result in `Hello Nafets`, etc..
 
-For reversing the name, probably existing builtin methods like .reverse() or anything 
+For reversing the name, probably existing builtin methods like `.reverse()` or anything 
 similar might not be used. The reversed name should start with an uppercase letter as well.
 
 After having made the adjustments, please commit your changes and push them to the cloned repository.
