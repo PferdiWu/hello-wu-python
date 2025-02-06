@@ -23,5 +23,9 @@ similar might not be used. The reversed name should start with an uppercase lett
 
 After having made the adjustments, please commit your changes and push them to the cloned repository.
 
+Hint: Put something like this in your SSH-Config:
+`Host github.com
+    IdentityFile = ~/.ssh/id_rsa.pferdinand`
+
 In addition, any hints for improving the given code is highly appreciated.
 Please write down your suggestions, e.g. in a new textfile in the repository. 
