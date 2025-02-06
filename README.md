@@ -1,14 +1,6 @@
-# Installation
-`pip3 install flask`
-
-# Run script
-`python3 hello.py`
-
-The application is available at `http://127.0.0.1:5000`
-
 # Todo
 
-Open the web application as depicted above. After entering your name and
+Install flask (see below) and open the web application as depicted below. After entering your name and
 submitting the form, the application will respond with "Hello <Name>!".
 
 Please adjust the application in a way so it responds with the entered name in
@@ -24,8 +16,17 @@ similar might not be used. The reversed name should start with an uppercase lett
 After having made the adjustments, please commit your changes and push them to the cloned repository.
 
 Hint: Put something like this in your SSH-Config:
-`Host github.com
-    IdentityFile = ~/.ssh/id_rsa.pferdinand`
-
+```
+Host github.com
+    IdentityFile = ~/.ssh/id_rsa.pferdinand
+```
 In addition, any hints for improving the given code is highly appreciated.
 Please write down your suggestions, e.g. in a new textfile in the repository. 
+
+# Installation
+`pip3 install flask`
+
+# Run script
+`python3 hello.py`
+
+The application is available at `http://127.0.0.1:5000`
